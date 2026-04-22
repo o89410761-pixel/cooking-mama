@@ -297,10 +297,6 @@ Result: Stable body composition
 
 Have ideas to improve Cooking Mama? Issues, PRs, feedback — all welcome!
 
-## License
-
-MIT
-
 ---
 
 **Made with ❤️ to help you achieve sustainable nutrition and fitness goals.**
