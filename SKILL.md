@@ -146,9 +146,9 @@ Want some ideas?"
 
 **See `references/tracking-patterns.md` for complete feedback patterns** — friendly, never judgmental, always constructive.
 
-#### 6. Suggest Recipes Based on Remaining Macros
+#### 6. Offer Recipe Suggestions (If Prompted)
 
-When user asks for dinner ideas or evening check-in arrives:
+When calculating remaining macros, **ask if user wants suggestions** instead of auto-suggesting:
 
 **Calculate remaining macros**:
 ```
@@ -160,12 +160,18 @@ If dinner is main meal: ~800 cal | 40g protein | 110g carbs | 35g fat
 (Leaves ~200 cal | 0g protein | 26g carbs | 8g fat for snacks)
 ```
 
-**Suggest 3–5 recipes that fit remaining macros ±10%**:
+**Share the status, then ask**:
 
 ```
 You've got ~1000 cal left for dinner + snacks.
-If you eat dinner now (~800 cal), you'll have room for a snack later if you get hungry.
+You're getting close on fat (only 10g left) — keep that in mind!
 
+Want some dinner recipe suggestions that fit your remaining macros?
+```
+
+**Only suggest recipes if user explicitly asks** (e.g., "Give me dinner ideas" or "What should I eat?"):
+
+```
 Here are some dinner ideas that fit:
 
 1. Thai Curry Chicken + Jasmine Rice
@@ -177,6 +183,8 @@ Here are some dinner ideas that fit:
 3. Salmon & Sweet Potato + Broccoli
    Macros: 742 cal | 41g protein | 96g carbs | 20g fat ✓
 ```
+
+**Why this matters**: Not overwhelming users with unsolicited suggestions. Keep it informative + let them decide when they want help.
 
 ---
 
